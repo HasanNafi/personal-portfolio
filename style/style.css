@@ -38,11 +38,13 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color: #f7f1f1;
+    background-color: white;
 }
 
 .logo img {
     height: 45px;
+    background-image: none;
+    z-index: -1;
 }
 
 nav ul {
