@@ -43,8 +43,6 @@ nav {
 
 .logo img {
     height: 45px;
-    background-image: none;
-    z-index: -1;
 }
 
 nav ul {
@@ -63,6 +61,53 @@ nav ul li a {
     color: #585b5b;
     letter-spacing: 4px;
 }
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* /* social cite */
+
+.social-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    margin: 10px;
+    padding: 10px;
+}
+
+.social:hover {
+    color: black;
+}
+
+
+/* .................facebook style........... */
+
+.fa-facebook {
+    color: rgb(46, 46, 248);
+}
+
+.fa-twitter {
+    color: rgb(121, 166, 250);
+}
+
+.fa-youtube {
+    color: rgb(247, 8, 8);
+}
+
+.fa-instagram {
+    color: rgb(238, 95, 95);
+    box-shadow: red;
+}
+
+.fa-linkedin {}
 
 .hey {
     color: #39bfbd;
